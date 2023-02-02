@@ -1,11 +1,22 @@
 //Use JavaScript or TypeScript to write a function that fetches data from this API endpoint
 
-function fetchData() {
-  fetch('https://jsonplaceholder.typicode.com/posts')
-    .then(response => response.json())
-    .then(data => console.log(data))
-    .catch(error => console.error(error));
+// function fetchData() {
+//   fetch('https://jsonplaceholder.typicode.com/posts')
+//     .then(response => response.json())
+//     .then(data => console.log(data))
+//     .catch(error => console.error(error));
+// }
+
+async function fetchData() {
+  try {
+    const response = await fetch('https://jsonplaceholder.typicode.com/posts');
+    const data = await response.json();
+    console.log(data);
+  } catch (error) {
+    console.error(error);
+  }
 }
+
 
 //Use JavaScript or TypeScript to write a function that creates a new post using this API endpoint.
 
