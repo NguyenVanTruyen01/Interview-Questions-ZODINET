@@ -34,10 +34,11 @@ function createPost(userId, title, body) {
     .catch(error => console.error(error));
 }
 
-
+// const fetchBtn = document.getElementById("fetchBtn");
 const fetchBtn = document.querySelector('#fetchBtn');
 fetchBtn.addEventListener('click', fetchData);
 
+// const fetchBtn = document.getElementById("createBtn");
 const createBtn = document.querySelector('#createBtn');
 createBtn.addEventListener('click', () => {
   createPost(1, 'This is Title', 'This is Body');
