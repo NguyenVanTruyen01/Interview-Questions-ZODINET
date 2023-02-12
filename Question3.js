@@ -1,4 +1,4 @@
-//Nguyễn Văn Truyền Email: nguyenvantruyennvt@gmail.com
+//Nguyễn Văn Truyền  Email: nguyenvantruyennvt@gmail.com
 
 function sumRange(start, end) {
     let result = 0;
