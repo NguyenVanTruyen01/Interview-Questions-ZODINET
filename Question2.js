@@ -1,5 +1,5 @@
 //Using object-oriented programming to create a Stack class and its methods: find, push, pop, size, and isEmpty.
-
+//Nguyễn Văn Truyền Email: nguyenvantruyennvt@gmail.com
 class Stack {
     constructor() {
         this.items = [];
