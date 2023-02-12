@@ -1,3 +1,5 @@
+//Nguyễn Văn Truyền Email: nguyenvantruyennvt@gmail.com
+
 //Use JavaScript or TypeScript to write a function that fetches data from this API endpoint
 
 // function fetchData() {
